@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.v7.preference.PreferenceCategory
+    android:title="Category 1">
+    <android.support.v7.preference.EditTextPreference
+        android:key="rainbowstudio_1_ip"
+        android:title="Rainbow Studio 1 IP"
+        android:summary="IP Address"
+        android:dialogMessage="Dialog Message"
+        android:defaultValue="192.168.1.100" />
+    <android.support.v7.preference.EditTextPreference
+        android:key="rainbowstudio_2_ip"
+        android:title="Rainbow Studio 2 IP"
+        android:summary="IP Address"
+        android:dialogMessage="Dialog Message"
+        android:defaultValue="192.168.1.101" />
+</android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>
